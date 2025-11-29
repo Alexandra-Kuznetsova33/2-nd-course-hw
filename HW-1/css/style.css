@@ -121,7 +121,7 @@ span {
   height: 90px; 
 }
 
-.top__animated-strip {
+.animated-strip {
   display: flex;
   width: fit-content; 
   overflow: hidden;
@@ -134,7 +134,7 @@ span {
   to { transform: translateX(-50%); }
 }
 
-.top__animated-strip img {
+.animated-strip img {
   display: inline-block; 
 }
 
