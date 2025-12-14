@@ -1,4 +1,4 @@
-// Функция первой активации игры
+// Функция первой активации игры №1
 function gameFirstClick() {
     startGame();
 }
@@ -35,3 +35,5 @@ function startGame() {
         }
     }
 }
+
+
