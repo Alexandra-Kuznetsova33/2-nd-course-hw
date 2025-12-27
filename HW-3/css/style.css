@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", "Arial";
+  color: black;
+  background-color: white;
+}
+
+a,
+input,
+button,
+select {
+  font-family: "Montserrat", "Arial";
+}
+
+
+main {
+  margin-left: 25px;
+  margin-bottom: 150px;
+}
+
+h4 {
+  color: #00790ab7;
+  display: flex;
+  align-items: stretch;
+}
+
+h4:not(:first-child) {
+  margin-top: 170px;
+  border-top: 1px solid;
+  padding-top: 15px;
+}
+
+h5 {
+  padding: 0px 0px 1px 10px;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+span {
+  font-size: 40px;
+  line-height: 100%;
+}
+
+.bold {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(209, 136, 0);
+}
