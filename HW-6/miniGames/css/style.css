@@ -21,6 +21,7 @@ select {
 
 .header {
   position: relative;
+  z-index: 10;
 }
 
 .mobile-image {
@@ -524,5 +525,29 @@ span {
     height: 100px;
     font-size: 16px;
     padding-top: 40px;
+  }
+}
+@media (max-width: 998px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header__image {
+    position: absolute;
+    z-index: -1;
+  }
+  .game-cards {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .game-card {
+    max-width: 240px;
+  }
+  .game-card__content {
+    padding: 16px 16px 32px 16px;
+  }
+  .game-card__name {
+    font-size: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
